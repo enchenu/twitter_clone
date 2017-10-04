@@ -32,8 +32,7 @@ https://github.com/FabianoVilela/twitter-clone-week1-team2
 
 ### 4. Run all migrations
 ```
-   $ docker-compose exec website rails db:create db:migrate      
-```
+   $ docker-compose run --rm website rake db:create db:migrate
 
 ### 5. How to execute other commands
 ```
